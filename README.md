@@ -34,21 +34,28 @@ between the sum of their
 [divisors](https://en.wikipedia.org/wiki/Divisor) and the number itself.
 For instance, the divisors of 6 are 1, 2, 3 and 6, and therefore they
 add up to 12, while the divisors of 28 are 1, 2, 4, 7, 14 and 28, and
-therefore they add up to 56. Because 12/6=2 and 56/28=2, 12 and 56 one
-says that they are _friends_. If we consider the number 12, its divisors
-are 1, 2, 3, 4, 6 and 12, which add up to 28, and therefore because
+therefore they add up to 56. Because 12/6=2 and 56/28=2, one can say that
+12 and 56 are _friends_. If we consider the number 12, its divisors
+are 1, 2, 3, 4, 6 and 12, which add up to 28, and therefore, because
 28/12=14/6=7/3 is different to 2, 12 cannot be _friends_ with 6 nor 28.
 
 This assignment incorporates an autograding feature using a so-called
 [GitHub Actions Worflow](https://github.com/features/actions), which will
 help you to automatically test whether your Python program is
-correctly working after every _push_. To work with this feature you
-need to edit your program in the existing file `src/friends.py` and
-leave the rest of the files and directory structure intact. Within the
-file `src/friends.py` please follow the instructions written in comments
-and put your code exactly in the indicated lines. You can test your
-program on your own computer by changing your current working directory
-into the `src` directory of this GitHub repo and typing:
+correctly working after every _push_. More concretely, a few minutes after
+you _pushed_ your changes to your remote GitHub repo, the badge labeled
+`FCB-Python-autograding` on top of this README file will be red and display
+the message `failing` if the autograding has not been successful, and
+green with the message `passing` otherwise. You may click on badge to
+look at output of the autograding tests to understand why it has failed,
+if that was the case. This feature provides you with
+[formative assessment](https://en.wikipedia.org/wiki/Formative_assessment)
+and to work it it you need to edit your program in the existing file
+`src/friends.py` and leave the rest of the files and directory structure
+intact. Within the file `src/friends.py` please follow the instructions
+written in comments and put your code exactly in the indicated lines. You
+can test your program on your own computer by changing your current working
+directory into the `src` directory of this GitHub repo and typing:
 
 ```
 $ python friends.py

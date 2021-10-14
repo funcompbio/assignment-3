@@ -1,4 +1,4 @@
-![](../../actions/workflows/FCB-Python-autograding/badge.svg)
+![FCB-Python-autograding](../../actions/workflows/FCB-Python-autograding/badge.svg)
 
 # Assignment 3 - FCB 2020
 ### Deadline: 22/10/2021 - 23:59

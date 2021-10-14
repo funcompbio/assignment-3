@@ -1,0 +1,17 @@
+name: FCB-Python-autograding
+
+on: [push]
+
+jobs:
+  build:
+    name: autograding
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python modules
+        run: sudo -H pip3 install pytest pytest-timeout
+      - name: Checking for syntax errors
+        run: python3 -m py_compile src/friends.py ; rm -f src/friends.pyc
+      - name: Run autograding tests
+        run: python3 -m pytest --timeout=30

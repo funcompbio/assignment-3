@@ -20,7 +20,7 @@ def test_friends1() :
     src.friends.main()
 
     if output[0] != "friends" :
-        errmsg = "ERROR: Your program wrongly outputs '%s' for 6 and 28 while they are 'friends'!!" %(output[0])
+        errmsg = "ERROR: Your program wrongly outputs '%s' for 6 and 28 while it should output 'friends'!!" %(output[0])
         print(color.ERROR+color.BOLD+errmsg+color.END, file=sys.stderr)
 
     assert output == ['friends']
@@ -38,7 +38,7 @@ def test_friends2() :
     src.friends.main()
 
     if output[0] != "no friends" :
-        errmsg = "ERROR: Your program wrongly outputs '%s' for 12 and 28 while they are 'no friends'!!" %(output[0])
+        errmsg = "ERROR: Your program wrongly outputs '%s' for 12 and 28 while it should output 'no friends'!!" %(output[0])
         print(color.ERROR+color.BOLD+errmsg+color.END %(output), file=sys.stderr)
 
     assert output == ['no friends']

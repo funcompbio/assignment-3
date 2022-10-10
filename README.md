@@ -21,11 +21,11 @@ assignment, the version available at the deadline will be retrieved. If the
 first version available is posterior to the deadline, then the mark of the
 assignment will have a penalty.
 
-To complete your submission (see rubric below) please agree with the following
-academic integrity statement by placing the letter `X` between the squared
-brackets:
+To complete your submission (see rubric below) please **agree to the following
+academic integrity statement** by placing the letter `X` between the squared
+brackets preceding the statment:
 
-- [X] The work here submitted as been entirely developed by myself, is the
+- [] The work here submitted as been entirely developed by myself and is the
   result of my own work.
 
 ## Description

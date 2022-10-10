@@ -1,14 +1,14 @@
 [![FCB-Python-autograding](../../actions/workflows/fcb_autograding.yml/badge.svg)](../../actions?query=workflow%3AFCB-Python-autograding)
 
-# Assignment 3 - FCB 2020
-### Deadline: 22/10/2021 - 23:59
+# Assignment 3 - FCB 2022
+### Deadline: 21/10/2022 - 23:59
 
 ## Submission procedure
 
 This assignment has to be submitted using GitHub Classroom. This
 means that you should have cloned the GitHub repo of this assignment from
-the organization account for FCB in the academic year 2021-22 at
-[https://github.com/funcompbio2021](https://github.com/funcompbio2021)
+the organization account for FCB in the academic year 2022-23 at
+[https://github.com/funcompbio2022](https://github.com/funcompbio2022)
 using the submission link provided at the FCB Moodle site.
 
 Once you have cloned the GitHub repo which has `assignment-3` and your
@@ -21,11 +21,13 @@ assignment, the version available at the deadline will be retrieved. If the
 first version available is posterior to the deadline, then the mark of the
 assignment will have a penalty.
 
+- [] xxxx
+
 ## Description
 
 The goal of this assignment is to implement a program in Python that
 **asks for two positive integer numbers and decides whether they are
-friends or not, saying 'friends' when they are, and 'no friends' when
+friends or not, saying 'friends' when they are, and 'not friends' when
 they are not.**
 
 According to the Wikipedia [page](https://en.wikipedia.org/wiki/Friendly_number)
@@ -77,6 +79,7 @@ informs Git to avoid putting certain files under version control. In any case,
 
 The rubric to evaluate this assignment consists of the following items:
 
+  * Did you agree to the academic integrity statement?
   * Does the assignment contain the required files?
   * Does the Python program `src/friends.py` runs without errors?
   * Does the Python program `src/friends.py` identifies friends and no friends numbers correctly?

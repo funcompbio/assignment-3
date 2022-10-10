@@ -21,7 +21,7 @@ assignment, the version available at the deadline will be retrieved. If the
 first version available is posterior to the deadline, then the mark of the
 assignment will have a penalty.
 
-- [] xxxx
+- [X] xxxx
 
 ## Description
 

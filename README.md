@@ -22,8 +22,8 @@ first version available is posterior to the deadline, then the mark of the
 assignment will have a penalty.
 
 To complete your submission (see rubric below) please **agree to the following
-academic integrity statement** by placing the letter `X` between the squared
-brackets preceding the statment:
+academic integrity statement** by editing this README file and placing the
+letter `X` between the squared brackets preceding the statement:
 
 - [] The work here submitted as been entirely developed by myself and is the
   result of my own work.
@@ -57,7 +57,7 @@ green with the message `passing` otherwise. You may click on badge to
 look at output of the autograding tests to understand why it has failed,
 if that was the case. This feature provides you with
 [formative assessment](https://en.wikipedia.org/wiki/Formative_assessment)
-and to work it it you need to edit your program in the existing file
+and to work with it you need to edit your program in the existing file
 `src/friends.py` and leave the rest of the files and directory structure
 intact. Within the file `src/friends.py` please follow the instructions
 written in comments and put your code exactly in the indicated lines. You
@@ -68,7 +68,7 @@ directory into the `src` directory of this GitHub repo and typing:
 $ python friends.py
 ```
 
-Your assignment repo should have the following two files:
+Your assignment repo should have the following files:
 
   1. This `README.md` file.
   2. The `src` directory with the initial files of the assignment repo.
@@ -78,7 +78,8 @@ Eventually, you may encounter that Python automatically creates a directory call
 `__pycache__`, you may ignore that directory since this template is already
 prepared to ignore that directory by including it into a `.gitignore` file that
 informs Git to avoid putting certain files under version control. In any case,
-**you should only be editing the file `src/friends.py`**.
+**you should only be editing the file `src/friends.py` and README.md to agree
+to the academic integrity statement**.
 
 ## Evaluation rubric
 
@@ -87,5 +88,5 @@ The rubric to evaluate this assignment consists of the following items:
   * Did you agree to the academic integrity statement?
   * Does the assignment contain the required files?
   * Does the Python program `src/friends.py` runs without errors?
-  * Does the Python program `src/friends.py` identifies friends and no friends numbers correctly?
+  * Does the Python program `src/friends.py` identifies friends and not friends numbers correctly?
   * Does the Python program `src/friends.py` passes all autograding tests?

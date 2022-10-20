@@ -78,7 +78,7 @@ Eventually, you may encounter that Python automatically creates a directory call
 `__pycache__`, you may ignore that directory since this template is already
 prepared to ignore that directory by including it into a `.gitignore` file that
 informs Git to avoid putting certain files under version control. In any case,
-**you should only be editing the file `src/friends.py` and README.md to agree
+**you should only be editing the file `src/friends.py` and `README.md` to agree
 to the academic integrity statement**.
 
 ## Evaluation rubric

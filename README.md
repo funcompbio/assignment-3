@@ -85,7 +85,7 @@ to the academic integrity statement**.
 
 The rubric to evaluate this assignment consists of the following items:
 
-  * Did you agree to the academic integrity statement?
+  * Did you properly agree to the academic integrity statement?
   * Does the assignment contain the required files?
   * Does the Python program `src/friends.py` runs without errors?
   * Does the Python program `src/friends.py` identifies friends and not friends numbers correctly?

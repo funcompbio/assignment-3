@@ -85,6 +85,7 @@ to the academic integrity statement**.
 
 The rubric to evaluate this assignment consists of the following items:
 
+  * Did you use the GitHub user profile you provided in the first assignment?
   * Did you properly agree to the academic integrity statement?
   * Does the assignment contain the required files?
   * Does the Python program `src/friends.py` runs without errors?

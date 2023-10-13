@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python modules
         run: sudo -H pip3 install pytest pytest-timeout
       - name: Checking for academic integrity statement
-        run: RED='\033[0;31m'; NC='\033[0m' ; x=`grep 'The work here submitted' README.md | perl -nae 'print $F[1]'` ; if [ "$x" != "[X]" ] && [ "$x" != "[x]" ] && [ "$x" != "[\"X\"]" ] && [ "$x" != "[\'X\']" ] ; then { echo -e "${RED}YOU HAVE NOT YET AGREED TO THE ACADEMIC INTEGRITY STATEMENT (SEE README.md FILE){NC}" ; exit 1 ; } ; fi
+        run: RED='\033[0;31m'; NC='\033[0m' ; x=`grep 'The work here submitted' README.md | perl -nae 'print $F[1]'` ; if [ "$x" != "[X]" ] && [ "$x" != "[x]" ] && [ "$x" != "[\"X\"]" ] && [ "$x" != "[\'X\']" ] ; then { echo -e "${RED}YOU HAVE NOT YET AGREED TO THE ACADEMIC INTEGRITY STATEMENT (SEE README.md FILE)${NC}" ; exit 1 ; } ; fi
       - name: Checking for syntax errors
         run: python3 -m py_compile src/friends.py ; rm -f src/friends.pyc
       - name: Run autograding tests

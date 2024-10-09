@@ -1,7 +1,7 @@
 [![FCB-Python-autograding](../../actions/workflows/fcb_autograding.yml/badge.svg)](../../actions?query=workflow%3AFCB-Python-autograding)
 
 # Assignment 3 - FCB 2024
-### Deadline: 16/10/2023 - 23:59
+### Deadline: 16/10/2024 - 23:59
 
 ## Submission procedure
 

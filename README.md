@@ -1,14 +1,14 @@
 [![FCB-Python-autograding](../../actions/workflows/fcb_autograding.yml/badge.svg)](../../actions?query=workflow%3AFCB-Python-autograding)
 
-# Assignment 3 - FCB 2023
-### Deadline: 19/10/2023 - 23:59
+# Assignment 3 - FCB 2024
+### Deadline: 16/10/2023 - 23:59
 
 ## Submission procedure
 
 This assignment has to be submitted using GitHub Classroom. This
 means that you should have cloned the GitHub repo of this assignment from
 the organization account for FCB in the academic year 2023-24 at
-[https://github.com/funcompbio2023](https://github.com/funcompbio2023)
+[https://github.com/FCB-2024](https://github.com/FCB-2024)
 using the submission link provided at the FCB Moodle site.
 
 Once you have cloned the GitHub repo which has `assignment-3` and your

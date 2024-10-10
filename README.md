@@ -42,7 +42,7 @@ between the sum of their
 For instance, the divisors of 6 are 1, 2, 3 and 6, and therefore they
 add up to 12, while the divisors of 28 are 1, 2, 4, 7, 14 and 28, and
 therefore they add up to 56. Because 12/6=2 and 56/28=2, one can say that
-12 and 28 are _friends_. If we consider the number 12, its divisors
+6 and 28 are _friends_. If we consider the number 12, its divisors
 are 1, 2, 3, 4, 6 and 12, which add up to 28, and therefore, because
 28/12=14/6=7/3 is different to 2, 12 cannot be _friends_ with 6 nor 28.
 

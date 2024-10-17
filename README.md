@@ -7,7 +7,7 @@
 
 This assignment has to be submitted using GitHub Classroom. This
 means that you should have cloned the GitHub repo of this assignment from
-the organization account for FCB in the academic year 2023-24 at
+the organization account for FCB in the academic year 2024-25 at
 [https://github.com/FCB-2024](https://github.com/FCB-2024)
 using the submission link provided at the FCB Moodle site.
 

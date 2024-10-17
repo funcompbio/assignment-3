@@ -72,7 +72,7 @@ Your assignment repo should have the following files:
 
   1. This `README.md` file.
   2. The `src` directory with the initial files of the assignment repo.
-  3. The `test` directory with the initial files of the assignment repo.
+  3. The `tests` directory with the initial files of the assignment repo.
 
 Eventually, you may encounter that Python automatically creates a directory called
 `__pycache__`, you may ignore that directory since this template is already

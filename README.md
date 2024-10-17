@@ -32,8 +32,8 @@ letter `X` between the squared brackets preceding the statement:
 
 The goal of this assignment is to implement a program in Python that
 **asks for two positive integer numbers and decides whether they are
-friends or not, saying 'friends' when they are, and 'not friends' when
-they are not.**
+friends or not, printing the messsage 'friends' when they are, and
+'not friends' when they are not.**
 
 According to the Wikipedia [page](https://en.wikipedia.org/wiki/Friendly_number)
 two positive integer numbers are friends if they have the same ratio

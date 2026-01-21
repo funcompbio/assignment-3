@@ -31,20 +31,20 @@ letter `X` between the squared brackets preceding the statement:
 ## Description
 
 The goal of this assignment is to implement a program in Python that
-**asks for two positive integer numbers and decides whether they are
-friends or not, printing the messsage 'friends' when they are, and
-'not friends' when they are not.**
+**asks for one positive integer number and decides whether it is
+superperfect or not, printing the messsage 'superperfect' when it is, and
+'not superperfect' when it is not.**
 
-According to the Wikipedia [page](https://en.wikipedia.org/wiki/Friendly_number)
-two positive integer numbers are friends if they have the same ratio
-between the sum of their
-[divisors](https://en.wikipedia.org/wiki/Divisor) and the number itself.
-For instance, the divisors of 6 are 1, 2, 3 and 6, and therefore they
-add up to 12, while the divisors of 28 are 1, 2, 4, 7, 14 and 28, and
-therefore they add up to 56. Because 12/6=2 and 56/28=2, one can say that
-6 and 28 are _friends_. If we consider the number 12, its divisors
-are 1, 2, 3, 4, 6 and 12, which add up to 28, and therefore, because
-28/12=14/6=7/3 is different to 2, 12 cannot be _friends_ with 6 nor 28.
+According to the Wikipedia [page](https://en.wikipedia.org/wiki/Superperfect_number)
+a positive integer number is superperfect if the sum of the
+[divisors](https://en.wikipedia.org/wiki/Divisor) of the
+sum of its divisors is equal to twice the number itself. For instance,
+the number 4 is _superperfect_ because the sum of its divisors is
+1 + 2 + 4 = 7, and the sum of the divisors of 7 is
+1 + 7 = 8, which is equal to 2 * 4 = 8. On the contrary,
+the number 6 is _not superperfect_ because the sum of its divisors is
+1 + 2 + 3 + 6 = 12, and the sum of the divisors of 12 is
+1 + 2 + 3 + 4 + 6 + 12 = 28, which is different from 2 * 6 = 12.
 
 This assignment incorporates an autograding feature using a so-called
 [GitHub Actions Worflow](https://github.com/features/actions), which will
@@ -58,14 +58,14 @@ look at output of the autograding tests to understand why it has failed,
 if that was the case. This feature provides you with
 [formative assessment](https://en.wikipedia.org/wiki/Formative_assessment)
 and to work with it you need to edit your program in the existing file
-`src/friends.py` and leave the rest of the files and directory structure
-intact. Within the file `src/friends.py` please follow the instructions
+`src/superperfect.py` and leave the rest of the files and directory structure
+intact. Within the file `src/superperfect.py` please follow the instructions
 written in comments and put your code exactly in the indicated lines. You
 can test your program on your own computer by changing your current working
 directory into the `src` directory of this GitHub repo and typing:
 
 ```
-$ python friends.py
+$ python superperfect.py
 ```
 
 Your assignment repo should have the following files:
@@ -74,12 +74,12 @@ Your assignment repo should have the following files:
   2. The `src` directory with the initial files of the assignment repo.
   3. The `tests` directory with the initial files of the assignment repo.
 
-Eventually, you may encounter that Python automatically creates a directory called
-`__pycache__`, you may ignore that directory since this template is already
-prepared to ignore that directory by including it into a `.gitignore` file that
-informs Git to avoid putting certain files under version control. In any case,
-**you should only be editing the file `src/friends.py`, and `README.md` to agree
-to the academic integrity statement**.
+Eventually, you may encounter that Python automatically creates a directory
+called `__pycache__`, you may ignore that directory since this template is
+already prepared to ignore that directory by including it into a `.gitignore`
+file that informs Git to avoid putting certain files under version control. In
+any case, **you should only be editing the file `src/superperfect.py`, and
+`README.md` to agree to the academic integrity statement**.
 
 ## Evaluation rubric
 
@@ -88,6 +88,6 @@ The rubric to evaluate this assignment consists of the following items:
   * Did you use the GitHub user profile you provided in the first assignment?
   * Did you properly agree to the academic integrity statement?
   * Does the assignment contain the required files?
-  * Does the Python program `src/friends.py` runs without errors?
-  * Does the Python program `src/friends.py` identifies friends and not friends numbers correctly?
-  * Does the Python program `src/friends.py` passes all autograding tests?
+  * Does the Python program `src/superperfect.py` runs without errors?
+  * Does the Python program `src/superperfect.py` identifies superperfect and not superperfect numbers correctly?
+  * Does the Python program `src/superperfect.py` passes all autograding tests?

@@ -1,14 +1,14 @@
 [![FCB-Python-autograding](../../actions/workflows/fcb_autograding.yml/badge.svg)](../../actions?query=workflow%3AFCB-Python-autograding)
 
-# Assignment 3 - FCB 2024
-### Deadline: 16/10/2024 - 23:59
+# Assignment 3 - FCB 2026
+### Deadline: 30/01/2026 - 23:59
 
 ## Submission procedure
 
 This assignment has to be submitted using GitHub Classroom. This
 means that you should have cloned the GitHub repo of this assignment from
-the organization account for FCB in the academic year 2024-25 at
-[https://github.com/FCB-2024](https://github.com/FCB-2024)
+the organization account for FCB in the academic year 2025-26 at
+[https://github.com/FCB-2026](https://github.com/FCB-2026)
 using the submission link provided at the FCB Moodle site.
 
 Once you have cloned the GitHub repo which has `assignment-3` and your
@@ -16,7 +16,7 @@ GitHub username as repo name, then you can work on it in your local disk
 and _push_ your changes whenever you like, but make sure that you have pushed
 the last version of your assignment before the deadline. There is no
 _submit_ button or any other specific submission procedure or action than
-just pushing your changes to you GitHub assignment repo. When correcting the
+just pushing your changes to your GitHub assignment repo. When correcting the
 assignment, the latest version available will be retrieved. If that latest
 version available is posterior to the deadline, then the mark of the assignment
 will have a penalty.
